@@ -11,6 +11,8 @@ Then, create a `.env` file in the project root which includes a randomly generat
 ```SECRET_KEY="YOUR_RANDOM_KEY"```
 
 To run a standalone Django development server:
+1. Create a virtualenv
+2. `pip install -r requirements.txt`
 1. `python manage.py migrate`
 2. `python manage.py runserver`
 
